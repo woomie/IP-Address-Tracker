@@ -29,7 +29,7 @@ input{
     background-image: url("./ip-address-tracker-master/images/icon-arrow.svg");
 }
 #map { 
-    height: 400px;
+    height: 100vh;
     position: relative;
     z-index: 1;
  }
@@ -56,7 +56,7 @@ input{
     background-color: white;
     position: absolute;
     z-index: 10;
-    top: 25%;
+    top: 15%;
     left: 20%;
     display:flex;
     justify-content: space-between;
