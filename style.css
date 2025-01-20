@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+     
+}
+
+header{
+    background-image: url("./ip-address-tracker-master/images/pattern-bg-desktop.png");
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position:relative;
+    z-index: 1;
+}
+h3{
+    margin-bottom: 20px;
+    color:white;
+}
+
+input{
+    width: 30%;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-style: none;
+    background-image: url("./ip-address-tracker-master/images/icon-arrow.svg");
+}
+#map { 
+    height: 400px;
+    position: relative;
+    z-index: 1;
+ }
+ #search{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width:50%;
+ }
+
+ button{
+    width: 100px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-style: none;
+    color: white;
+    background-color: black;
+ }
+
+ #result{
+    width: 50%;
+    margin: auto;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+    top: 25%;
+    left: 20%;
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+ }
+ .details{
+    padding: 20px;
+    box-sizing: border-box;
+    
+
+ }
+ .details p{
+    font-size: 12px;
+    color: grey;
+    
+ }
